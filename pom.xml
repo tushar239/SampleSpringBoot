@@ -19,7 +19,7 @@
 		<!-- There are two classes having main method. To tell Spring Boot which class to use, you need to add this property -->
         <!-- <start-class>spring.boot.rest.HelloWorld</start-class>  -->
         <!-- Comment above and uncomment this to test jdbc with spring-boot --> 
-        <start-class>spring.boot.rest.Example</start-class>
+        <start-class>spring.boot.aws.remote.rest.Example</start-class>
          
     </properties>
     
