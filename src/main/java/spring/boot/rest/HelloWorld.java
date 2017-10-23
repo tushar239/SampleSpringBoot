@@ -21,7 +21,7 @@ public class HelloWorld {
     // Run main method using tool (eclipse/intellij). Based on pom.xml dependencies, tomcat or jetty will be started
 
     // If you are using default profile (application.properties), then use
-    // http://localhost:8083/hello/home
+    // http://localhost:8080/hello/home
 
     // You can use 'application-MiralProfile.properties', if you are using 'MiralProfile'. It can be used by passing '-Dspring.profiles.active=MiralProfile' while running main method
     // or "mvn -Dspring.profiles.active=MiralProfile spring-boot:run"

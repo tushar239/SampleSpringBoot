@@ -1,6 +1,0 @@
-Manifest-Version: 1.0
-Build-Jdk: 1.8.0_91
-Built-By: chokst
-Created-By: IntelliJ IDEA
-Main-Class: spring.boot.rest.Example
-
