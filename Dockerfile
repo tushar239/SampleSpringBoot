@@ -18,8 +18,12 @@ FROM java:8
 # EXPOSE 8080 is used to make two containers communicate with each other. you can read self created docker document to see how two applicaitons in two different containers can communicate with each other.
 # application is running on 8080, you expose it to host machine's 8085 port
 # normally, you should use -p parameter to publish host's port. You can read about EXPOSE vs -p in self created docker document.
-EXPOSE 8085:8080 # 8085 has no effect here. it is just for the documentation to tell a person who runs a container that use 8085 with -p
+EXPOSE 8085:8080 #8085 has no effect here. it is just for the documentation to tell a person who runs a container that use 8085 with -p
+
 # copy jar file of your application into docker image
 ADD /target/SampleSpringBoot.jar SampleSpringBoot.jar
 # when a container is run, it will run this command
 ENTRYPOINT ["java","-jar","SampleSpringBoot.jar"]
+
+
+# how to deploy spring boot war file
